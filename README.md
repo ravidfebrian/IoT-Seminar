@@ -19,6 +19,7 @@
   ![image](https://github.com/user-attachments/assets/356f7584-7028-4edf-b78d-8093b6d5ffcd)
 3. Choose the file that you are downloaded from this repo. Choose Full backup and Restore.
    ![image](https://github.com/user-attachments/assets/53be26a2-6ce4-4513-a2f5-c43d37a7e5a8)
+4. After it is succesfully restored, change the IP address and the Hostname of the device in ´Settings -> System -> Network´. If you **cannot access** the device, type in ´http://mxr-lab-1.local:8123´ in your web browser.
 
 ## Arduino
 Give description here
