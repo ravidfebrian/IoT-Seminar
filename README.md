@@ -14,13 +14,17 @@
 3. After it is finished you can place the SD card into the Raspberry Pi and boot it up.
 4. You can access the Home Assistant dashboard by typing in `http://homeassistant.local:8123` in your web browser. If you know the IP address, you can also access it with `http://YOUR_HA_IP:8123`.
 ![image](https://github.com/user-attachments/assets/3d479bb3-97cf-4f1f-8205-e0bf9e3926fa)
-5. Here you can create a new account or restore it directly from the backup file.
-6. If you choose restore backup, chose the backup file that you downloaded from this repo and choose `Full backup` to restore.
-![image](https://github.com/user-attachments/assets/b8f18bb2-1ac8-40c1-997f-570d4bf63156)
 
   
 
 ### Restore Home Assistant Backup
+There are two ways to restore Home Assistant backup. The first one is by doing it from the beggining where the Home Assistant just installed. The second one is after you create an account. You can choose whatever needed.
+**First option:**
+1. Here you can create a new account or restore it directly from the backup file.
+2. If you choose restore backup, chose the backup file that you downloaded from this repo and choose `Full backup` to restore.
+![image](https://github.com/user-attachments/assets/b8f18bb2-1ac8-40c1-997f-570d4bf63156)
+
+**Second option:**
 1. Download the Home Assistant backup file from this repo.
 2. In Home Assistant Dashboard, go to `Settings -> System -> Backups`. Here, click on the three dots icon at the upper right side and click on `Upload backup`. 
   ![image](https://github.com/user-attachments/assets/5a9defa1-7e33-49e7-9f1b-3541d9b7df43)
