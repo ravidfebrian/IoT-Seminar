@@ -19,12 +19,14 @@
 
 ### Restore Home Assistant Backup
 There are two ways to restore Home Assistant backup. The first one is by doing it from the beggining where the Home Assistant just installed. The second one is after you create an account. You can choose whatever needed.
-**First option:**
+#### First option:
 1. Here you can create a new account or restore it directly from the backup file.
 2. If you choose restore backup, chose the backup file that you downloaded from this repo and choose `Full backup` to restore.
 ![image](https://github.com/user-attachments/assets/b8f18bb2-1ac8-40c1-997f-570d4bf63156)
+3. After it is succesfully restored, change the IP address and the Hostname of the device in `Settings -> System -> Network`. If you **cannot access** the device, type in `http://mxr-lab-1.local:8123` in your web browser.
 
-**Second option:**
+
+#### Second option:
 1. Download the Home Assistant backup file from this repo.
 2. In Home Assistant Dashboard, go to `Settings -> System -> Backups`. Here, click on the three dots icon at the upper right side and click on `Upload backup`. 
   ![image](https://github.com/user-attachments/assets/5a9defa1-7e33-49e7-9f1b-3541d9b7df43)
