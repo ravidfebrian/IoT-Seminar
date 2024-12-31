@@ -11,6 +11,14 @@
 1. Download [Raspberry Pi Imager](https://www.raspberrypi.com/software/).
 2. Choose the your Raspberry Pi Device and choose `Operating System -> Other specific-purpose OS -> Home Assistant and Home Automation -> Home Assistant -> Home Assistant OS 14.1`.   
 ![image](https://github.com/user-attachments/assets/6e625f45-b186-4a00-a16a-40fd9f2efff0)
+3. After it is finished you can place the SD card into the Raspberry Pi and boot it up.
+4. You can access the Home Assistant dashboard by typing in `http://homeassistant.local:8123` in your web browser. If you know the IP address, you can also access it with `http://YOUR_HA_IP:8123`.
+![image](https://github.com/user-attachments/assets/3d479bb3-97cf-4f1f-8205-e0bf9e3926fa)
+5. Here you can create a new account or restore it directly from the backup file.
+6. If you choose restore backup, chose the backup file that you downloaded from this repo and choose `Full backup` to restore.
+![image](https://github.com/user-attachments/assets/b8f18bb2-1ac8-40c1-997f-570d4bf63156)
+
+  
 
 ### Restore Home Assistant Backup
 1. Download the Home Assistant backup file from this repo.
