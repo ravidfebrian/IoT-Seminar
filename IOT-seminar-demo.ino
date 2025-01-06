@@ -7,14 +7,14 @@
 
 DHT dht(DHTPIN, DHTTYPE);
 
-char ssid[] = "APA012";      
-char pass[] = "425005f3e4f7"; 
+char ssid[] = "WIFI_NAME";      
+char pass[] = "WIFI_PASS"; 
 
 WiFiClient wifiClient;
 MqttClient mqttClient(wifiClient);
 
-const char broker[] = "192.168.77.18";
-int        port     = 1884;
+const char broker[] = "MQTT_BROKER_IP";
+int        port     = MQTT_BROKER_PORT;
 const char topic[]  = "temperature";
 const char topic2[]  = "moisture";
 
