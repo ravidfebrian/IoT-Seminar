@@ -11,12 +11,8 @@ void loop() {
   // Convert the analog value to voltage (0-3.3V)
   float voltage = heartbeatValue * (3.3 / 1023.0);
 
-  // Display the heartbeat data
-  Serial.print("Heartbeat Value: ");
-  Serial.print(heartbeatValue);
-  Serial.print(" (Voltage: ");
-  Serial.print(voltage);
-  Serial.println(" V)");
+  // Output only numeric values (voltage) for Serial Plotter
+  Serial.println(voltage);      // Voltage value
 
   delay(10); // Delay 10ms for smoother signal visualization
 }
