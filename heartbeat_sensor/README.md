@@ -33,6 +33,20 @@ This repository provides an example of how to use the HW-827 heartbeat sensor wi
 6. Set the baud rate to **115200**.
 7. Observe the heartbeat waveform displayed in the Serial Plotter.
 
+## How to Test the Sensor
+- **Sensor Placement**:
+  - Attach the HW-827 sensor to the **tip of your finger** using a soft band or hold it gently to ensure consistent contact.
+  - Ensure the sensor is not obstructed by external light sources to avoid interference.
+- **Environment**:
+  - Test the sensor in a quiet and stable environment to minimize noise and movement artifacts.
+  - Keep your hand steady during measurement.
+- **Reading the Signal**:
+  - The Serial Plotter will display a waveform corresponding to your heartbeat.
+  - Peaks in the waveform represent individual heartbeats.
+- **Tips for Accurate Results**:
+  - Warm up the sensor for 10-15 seconds before taking measurements.
+  - Avoid pressing the sensor too tightly as it may restrict blood flow and distort readings.
+
 ## Understanding the Output
 - **Serial Plotter Visualization**:
   - The sensor outputs a pulsing waveform corresponding to the heartbeat.
