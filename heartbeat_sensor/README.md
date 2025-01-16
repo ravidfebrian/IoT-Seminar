@@ -62,8 +62,6 @@ To calculate the heartbeat rate in beats per minute (BPM):
 1. Count the number of peaks in the waveform over a 10-second interval.
 2. Multiply this count by 6 to obtain BPM.
 
-```
-
 ## Troubleshooting
 - **No signal in Serial Plotter**:
   - Verify the correct port is selected in Arduino IDE.
