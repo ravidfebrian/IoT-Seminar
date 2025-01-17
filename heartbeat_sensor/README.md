@@ -12,7 +12,7 @@ This repository provides an example of how to use the HW-827 heartbeat sensor wi
 | **HW-827 Pin** | **D1 Mini Pin (Based on Board)** | **D1 Mini Pin (Arduino Code)** | **Function**                   |
 |----------------|----------------------------------|--------------------------------|--------------------------------|
 | **VCC**        | **3V3**                          | **3V3**                        | Power Supply                   |
-| **GND**        | **G**                            | **G**                          | Ground                         |
+| **GND**        | **GND**                            | **G**                          | Ground                         |
 | **OUT**        | **A0**                           | **A0**                         | Analog Output (Heartbeat Data) |
 
 ### Wiring Picture

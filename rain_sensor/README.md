@@ -12,7 +12,7 @@ This repository provides an example of how to use the MH-RD raindrop detection m
 | **MH-RD Pin** | **D1 Mini Pin (Based on Board)** | **D1 Mini Pin (Arduino Code)** | **Function**               |
 |---------------|-----------------------------------|--------------------------------|----------------------------|
 | **VCC**       | **3V3**                          | **3V3**                       | Power Supply               |
-| **GND**       | **G**                            | **G**                         | Ground                     |
+| **GND**       | **GND**                            | **G**                         | Ground                     |
 | **DO**        | **SCL**                          | **D1**                        | Digital Output (Rain Detection) |
 | **AO**        | **A0**                           | **A0**                        | Analog Output (Moisture Level) |
 

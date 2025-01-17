@@ -12,7 +12,7 @@ This repository provides an example of how to use the GY-BMP280 sensor (for temp
 | **GY-BMP280 Pin** | **D1 Mini Pin (Based on Board)** | **D1 Mini Pin (Arduino Code)** | **Function**          |
 |--------------------|-----------------------------------|--------------------------------|-----------------------|
 | **VCC**            | **3V3**                          | **3V3**                       | Power Supply          |
-| **GND**            | **G**                            | **G**                         | Ground                |
+| **GND**            | **GND**                            | **G**                         | Ground                |
 | **SCL**            | **SCL**                          | **D1**                        | I2C Clock Signal      |
 | **SDA**            | **SDA**                          | **D2**                        | I2C Data Signal       |
 

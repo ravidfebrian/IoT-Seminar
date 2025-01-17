@@ -13,7 +13,7 @@ This repository provides an example of how to use the Capacitive Soil Moisture S
 | **Soil Moisture Sensor Pin** | **D1 Mini Pin (Based on Board)** | **D1 Mini Pin (Arduino Code)** | **Function**          |
 |------------------------------|-----------------------------------|--------------------------------|-----------------------|
 | **VCC**                      | **3V3**                          | **3V3**                       | Power Supply (3.3V or 5V) |
-| **GND**                      | **G**                            | **G**                         | Ground                |
+| **GND**                      | **GND**                            | **G**                         | Ground                |
 | **OUT**                      | **A0**                           | **A0**                        | Analog Output (Moisture Data) |
 
 ### Wiring Picture

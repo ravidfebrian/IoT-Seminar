@@ -17,7 +17,7 @@ This repository provides an example of how to connect and use the MFRC522 RFID m
 | **MOSI**           | **MISO**                          | **D6**                         | SPI Master Out Slave In     |
 | **MISO**           | **MOSI**                          | **D7**                         | SPI Master In Slave Out     |
 | **RST**            | **RST**                           | **D0**                         | Reset                       |
-| **GND**            | **G**                             | **G**                          | Ground                      |
+| **GND**            | **GND**                             | **G**                          | Ground                      |
 | **VCC**            | **3V3**                           | **3V3**                        | 3.3V Power Supply           |
 
 ### Important Note

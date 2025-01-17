@@ -12,7 +12,7 @@ This repository provides an example of how to use the KY-026 flame sensor with t
 | **KY-026 Pin** | **D1 Mini Pin (Based on Board)** | **D1 Mini Pin (Arduino Code)** | **Function**             |
 |----------------|-----------------------------------|--------------------------------|--------------------------|
 | **VCC**        | **3V3**                          | **3V3**                       | Power Supply             |
-| **GND**        | **G**                            | **G**                         | Ground                   |
+| **GND**        | **GND**                            | **G**                         | Ground                   |
 | **DO**         | **2**                            | **D4**                        | Digital Output (Flame Detection) |
 | **AO**         | **A0**                           | **A0**                        | Analog Output (Flame Intensity)  |
 
