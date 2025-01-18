@@ -9,6 +9,22 @@ The **Internet of Things (IoT)** is a network of interconnected devices that col
 - **Device Control**: Turning devices on/off or adjusting settings (e.g., adjusting thermostat temperature).
 - **Automation**: Enabling scheduled or event-driven device interactions.
 
+### Overview of IoT Use Cases
+| **Category**                | **Description**                                                  | **Examples**                                                                                       |
+|-----------------------------|------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| **Data Streaming**          | Continuous or periodic collection of data from sensors.         | Monitoring temperature, humidity, or heart rate; GPS tracking for vehicles.                      |
+| **Threshold Notifications** | Alerts when parameters cross a set threshold.                  | Smoke detection alarm, low soil moisture notification, or temperature exceeding a set value.     |
+| **On/Off Control**          | Binary control of devices based on conditions.                  | Turning on lights when motion is detected or switching off a heater when a target temperature is reached. |
+| **Value-Based Actions**     | Adjusting a device to a specific value instead of on/off.       | Adjusting brightness of a bulb, setting a thermostat temperature, or fan speed control.          |
+| **Scheduled Operations**    | Automating actions based on a timer or schedule.                | Turning on lights at sunset, running appliances at specific times, or scheduling irrigation.      |
+| **Event-Driven Actions**    | Triggering actions based on specific events or states.          | Smart doorbell notification, unlocking a door via proximity, or turning off appliances after inactivity. |
+| **Data Logging and Analysis** | Storing data for trend analysis or tracking.                   | Logging energy consumption, weather pattern monitoring, or industrial equipment wear tracking.    |
+| **Remote Monitoring and Control** | Monitoring or controlling devices remotely.                  | Controlling appliances via app, viewing security camera feeds, or adjusting irrigation settings while away. |
+| **Multi-Device Interaction** | Devices communicating for complex automation.                  | Thermostat adjusting fans and AC together, motion sensors triggering cameras and lights.          |
+| **User Feedback and Learning** | Adapting device behavior based on user preferences.            | Smart thermostat learning schedules, fitness trackers suggesting workouts, or adjusting speaker volume. |
+| **Proactive Alerts**        | Anticipating issues and notifying users.                        | Predictive maintenance, low battery alerts, or filter replacement reminders.                     |
+| **Geofencing**              | Triggering actions based on user location.                     | Locking doors when leaving home, turning on HVAC when nearby, or sending location-based reminders. |
+
 ## Introduction to MQTT
 **MQTT (Message Queuing Telemetry Transport)** is a lightweight messaging protocol ideal for IoT applications. It facilitates communication between devices in a publish-subscribe model.
 
