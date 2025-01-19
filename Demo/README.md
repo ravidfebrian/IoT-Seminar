@@ -35,6 +35,10 @@ There are two ways to restore Home Assistant backup. The first one is by doing i
    ![image](https://github.com/user-attachments/assets/53be26a2-6ce4-4513-a2f5-c43d37a7e5a8)
 4. After it is succesfully restored, change the IP address and the Hostname of the device in `Settings -> System -> Network`. If you **cannot access** the device, type in `http://mxr-lab-1.local:8123` in your web browser.
 
+## Credentials:
+Username: gemit
+Pass: gemit1212
+
 ## Arduino
 
 ### Explanation of Arduino Code
